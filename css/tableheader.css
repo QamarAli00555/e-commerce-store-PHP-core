@@ -1,0 +1,115 @@
+.th-container {
+  position: relative;
+}
+
+.icon-container {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+td {
+  padding: 10px;
+}
+.filter-icon,
+.sort-icon {
+  margin-left: 3px; /* Add some margin between the icons */
+}
+.filter-icon {
+  color: blue;
+}
+
+.sort-icon {
+  color: green;
+}
+
+.filter-icon {
+  margin-right: 10px;
+}
+.filter-icon,
+.sort-icon {
+  font-size: 10px; /* Adjust the font size as needed */
+}
+
+.filter-icon,
+.sort-icon:hover {
+  cursor: pointer;
+}
+
+.comment-title b {
+  font-weight: bold;
+}
+
+/* Your CSS styles here */
+.filter-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  /* Set the maximum height for the dropdown */
+  /* Enable vertical scrolling when needed */
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cancel-button {
+  margin-top: 8px;
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.ok-button {
+  margin-top: 8px;
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filter-options {
+  overflow: auto;
+  max-height: 100px;
+  text-justify: inter-word;
+  max-width: 170px;
+  word-wrap: break-word;
+  white-space: normal; /* Style checkbox options here */
+}
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ccc;
+  margin: 0 4px;
+  border-radius: 4px;
+}
+
+.pagination a.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+.pagination a:hover {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
